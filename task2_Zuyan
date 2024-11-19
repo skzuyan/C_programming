@@ -1,0 +1,48 @@
+/*
+Expt no: 1.2
+Title:WAP to get students PCM marks
+      from the user and find the aver
+Name: Shaikh Zuyan.
+DIV: D
+DIN : 241P133
+*/
+
+#include <stdio.h>
+int main()
+
+{
+    
+    int physics_marks, chemistry_marks, maths_marks;
+    
+    printf("Enter Your Physics Marks : "); 
+    scanf("%d", &physics_marks);
+    
+    printf("Enter Your Chemistry Marks: "); 
+    scanf("%d", &chemistry_marks);
+    
+    printf("Enter Your Maths Marks\t : "); 
+    scanf("%d", &maths marks);
+    
+    printf("Physics\t\t: %d/100\nChemistry\t: %d/100\nMaths\t\t: %d/100\n\n",
+            physics_marks, chemistry_marks, maths_marks);
+    
+    float average= (physics_marks+chemistry_marks+maths_marks)/3;
+    
+    printf("Average: %f\n", average);
+    
+    average>=50? printf("You are eligible.\n"):printf("You are not eligible.\n");
+    
+    return 0;
+}
+/*
+Enter Your Physics Marks: 88
+Enter Your Chemistry Marks: 77
+Enter Your Maths Marks: 75
+Physics     : 88/100
+Chemistry   : 77/100
+Maths       : 75/100
+
+Average: 80
+You are eligible.
+
+*/

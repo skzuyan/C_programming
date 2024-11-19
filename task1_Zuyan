@@ -1,0 +1,41 @@
+/*
+Expt no: 1
+
+Title : WAP to print your name, age, class, division and UIN on the screen.
+
+Name : Shaikh Zuyan.
+
+Div : D
+
+UIN : 241P133
+*/
+
+#include <stdio.h>
+
+int main() {
+
+printf("Name\t: Shaikh Zuyan\n\n");
+
+printf("Age\t: 18\n\n");
+
+printf("Class\t: FE\n\n");
+
+printf("Division\t\b: D\n\n");
+
+printf("UIN\t: 241P133");
+
+return 0;
+
+}
+
+/*
+Name : Shaikh Zuyan
+
+Age : 18
+
+Class : FE
+
+Division: D
+
+UIN : 241P133
+*/
