@@ -1,0 +1,39 @@
+/*
+    Exp No.: 6
+    Title: WAP to define a counter function
+           to print how many times the function is called.
+           use storage classes
+    Name: Shaikh Zoyan Khalid 
+    UIN:  241P133
+    DIV:  A  
+       
+*/
+
+#include <stdio.h>
+
+// Counter function with static variable to count the number of calls
+void counter() {
+    // static variable retains its value between function calls
+    static int count = 0;
+    count++;  // Increment count each time the function is called
+    printf("Function called %d times\n", count);
+}
+
+int main() {
+    // Calling the counter function multiple times
+    counter();
+    counter();
+    counter();
+    counter();
+
+    return 0;
+}
+
+/* OUTPUT
+
+Function called 1 times
+Function called 2 times
+Function called 3 times
+Function called 4 times
+
+*/
